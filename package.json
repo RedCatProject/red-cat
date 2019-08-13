@@ -1,0 +1,25 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "@nestjs/testing": "^6.0.0",
+    "@types/express": "4.16.1",
+    "@types/jest": "24.0.11",
+    "@types/node": "11.13.4",
+    "@types/supertest": "2.0.7",
+    "jest": "24.7.1",
+    "lerna": "^3.16.4",
+    "prettier": "1.17.0",
+    "supertest": "4.0.2",
+    "ts-jest": "24.0.2",
+    "ts-node": "8.1.0",
+    "tsc-watch": "2.2.1",
+    "tsconfig-paths": "3.8.0",
+    "tslint": "5.16.0",
+    "typescript": "3.4.3"
+  },
+  "dependencies": {
+    "red-cat-admin": "file:packages/red-cat-admin",
+    "red-cat-api": "file:packages/red-cat-api"
+  }
+}
