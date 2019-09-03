@@ -25,6 +25,7 @@
     "@nestjs/core": "^6.0.0",
     "@nestjs/platform-express": "^6.0.0",
     "codacy-coverage": "^3.4.0",
+    "nestjs-apm": "^1.0.8",
     "reflect-metadata": "^0.1.12",
     "rimraf": "^2.6.2",
     "rxjs": "^6.3.3"

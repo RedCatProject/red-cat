@@ -66,6 +66,15 @@ $ npm run test:cov
 export CODACY_PROJECT_TOKEN=%Project_Token%
 ```
 
+### Logging
+
+nestjs-apm
+
+ELASTIC_APM_SERVER_URL=
+ELASTIC_APM_LOG_LEVEL=
+ELASTIC_APM_SERVICE_NAME=
+
+https://33ced70aaa8741369e2b97fa6f04f08f.eu-central-1.aws.cloud.es.io:9243/login?next=%2F
 
 
 
