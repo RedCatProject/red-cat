@@ -7,6 +7,9 @@ import { EventsModule } from './events/events.module';
 import { VacanciesModule } from './vacancies/vacancies.module';
 import { UsersModule } from './users/users.module';
 import { CompaniesModule } from './companies/companies.module';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { Candidates.ServiceService } from './candidates.service/candidates.service.service';
+
 
 // logging service
 
@@ -17,8 +20,10 @@ import { CompaniesModule } from './companies/companies.module';
     EventsModule,
     VacanciesModule,
     UsersModule,
-    CompaniesModule],
+    CompaniesModule,
+    TypeOrmModule.forRoot(),
+  ],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [AppService, Candidates.ServiceService],
 })
 export class AppModule {}

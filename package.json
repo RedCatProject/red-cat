@@ -21,8 +21,11 @@
   },
   "dependencies": {
     "@nestjs/jwt": "^6.1.1",
+    "@nestjs/typeorm": "^6.2.0",
+    "mysql": "^2.17.1",
     "passport-jwt": "^4.0.0",
     "red-cat-admin": "file:packages/red-cat-admin",
-    "red-cat-api": "file:packages/red-cat-api"
+    "red-cat-api": "file:packages/red-cat-api",
+    "typeorm": "^0.2.19"
   }
 }
