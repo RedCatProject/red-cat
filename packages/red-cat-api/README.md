@@ -76,6 +76,13 @@ ELASTIC_APM_SERVICE_NAME=
 
 https://33ced70aaa8741369e2b97fa6f04f08f.eu-central-1.aws.cloud.es.io:9243/login?next=%2F
 
-## License
+### Issues
 
-  Nest is [MIT licensed](LICENSE).
+## Local DB connection
+Execute the following query in MYSQL Workbench
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'
+
+Where root as your user localhost as your URL and password as your password
+
+Try connecting using node after you do so
