@@ -5,6 +5,6 @@
     "username": "root",
     "password": "dev456_$",
     "database": "red-cat",
-    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "entities": ["src/**/*.entity{.ts,.js}"],
     "synchronize": true
   }

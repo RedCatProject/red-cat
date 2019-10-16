@@ -8,7 +8,6 @@ import { Candidate } from './candidate.entity';
         type: Candidate,
     },
 })
-
 @Controller('candidates')
 export class CandidatesController {
     constructor(public service: CandidatesService) { }
