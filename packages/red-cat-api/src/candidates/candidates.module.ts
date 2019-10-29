@@ -6,7 +6,7 @@ import { CandidatesController } from './candidates.controller';
 
 @Module({
     imports: [TypeOrmModule.forFeature([Candidate])],
-    providers: [CandidatesService, CandidatesService],
-    controllers: [CandidatesController, CandidatesController],
+    providers: [CandidatesService],
+    controllers: [CandidatesController],
 })
 export class CandidatesModule {}
