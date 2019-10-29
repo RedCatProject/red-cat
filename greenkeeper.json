@@ -3,7 +3,6 @@
     "default": {
       "packages": [
         "package.json",
-        "packages/red-cat-admin/package.json",
         "packages/red-cat-api/package.json"
       ]
     }
